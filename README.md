@@ -1,4 +1,4 @@
-# RMK Heuristics
+# Learning RMK
 
 This project is an account of part of the effort I put into developing context to contribute the [RMK Project](rmk.rs)
 
