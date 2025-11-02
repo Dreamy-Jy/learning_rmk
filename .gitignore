@@ -8,6 +8,11 @@ target/
 *.hex
 *.uf2
 
+scratch_pad.md
+
+# Ignore obsidian
+.obsidian
+
 # Ignore kicad 
 # gotten from https://github.com/github/gitignore/blob/main/KiCad.gitignore
 # gotten from https://gist.github.com/cowboy/71a35998640eb5a6c50680c979b35187

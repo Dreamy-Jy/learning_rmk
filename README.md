@@ -12,7 +12,15 @@ This project is an account of part of the effort I put into developing context t
 
 ### [`./docs/`](docs/)
 
-Not enough content to write a blurb for this one
+| Document Status                                                        | Title                                         | Link To File                                                             | Description                                                                                                     |
+| ---------------------------------------------------------------------- | --------------------------------------------- | ------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
+| ![living](https://img.shields.io/badge/status-living-brightgreen)      | RMK Workflows                                 | [`docs/rmk_contributor_workflows.md`](docs/rmk_contributor_workflows.md) | A living document of workflows discovered working with RMK as firmware creator and contributor.                 |
+| ![complete](https://img.shields.io/badge/status-complete-brightgreen)  | Embedded Heuristics: Getting Started          | [`docs/heuristics_blinky.md`](docs/heuristics_blinky.md)                 | Wrote blinky LED. Chronicle of Embedded Systems intuition developed doing that.                                 |
+| ![in progress](https://img.shields.io/badge/status-in%20progress-blue) | TBD                                           | [`docs/heuristics_micropad.md`](docs/heuristics_blinky.md)               | Wrote a mircopad keyboard. Chronicle of Embedded Systems intuition developed doing that.                        |
+| ![planned](https://img.shields.io/badge/status-planned-lightgrey)      | WT^[^1]: Async + Atomic Rust Overview         | Not yet                                                                  | Expanding my understanding of concurrency by writing an Async runtime and learning atomics.                     |
+| ![planned](https://img.shields.io/badge/status-planned-lightgrey)      | WT: Just Enough Macros For RMK                | Not yet                                                                  | Only learning just enough of Rust's macro system to develop RMK.<br><br>Written in parallel with other content. |
+| ![planned](https://img.shields.io/badge/status-planned-lightgrey)      | WT: RMK Codebase Overview                     | Not yet                                                                  | An overview of RMK's codebase at version TBD.                                                                   |
+| ![planned](https://img.shields.io/badge/status-planned-lightgrey)      | WT: Embassy Ecosystem and Ergonomics Overview | Not yet                                                                  | An overview of embassy's ecosystem, with a emphasis on api's used by RMK.                                       |
 
 ### [`./programs/`](programs/)
 
@@ -52,6 +60,8 @@ Not enough content to write a blurb for this one
 
 **TLDR:**
 
-|Schematic|PCB|3D Model|Real Device|
-|---------|---|--------|-----------|
-|<img src="docs/photos/schematic.png" alt="Schematic" width="300"/>|<img src="docs/photos/pcb.png" alt="PCB" width="300"/>|<img src="docs/photos/3d_model.png" alt="3D Model" width="300"/>|<img src="docs/photos/actual_device.png" alt="Real Device" width="300"/>|
+| Schematic                                              | PCB                                        | 3D Model                                             | Real Device                                                  |
+| ------------------------------------------------------ | ------------------------------------------ | ---------------------------------------------------- | ------------------------------------------------------------ |
+| <img src="docs/photos/schematic.png" alt="Schematic"/> | <img src="docs/photos/pcb.png" alt="PCB"/> | <img src="docs/photos/3d_model.png" alt="3D Model"/> | <img src="docs/photos/actual_device.png" alt="Real Device"/> |
+
+[^1]: WT = Working Title
