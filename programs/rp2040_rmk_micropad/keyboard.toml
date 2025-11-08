@@ -1,0 +1,27 @@
+[keyboard]
+name = "RP2040_RMK_Micropad"
+product_name = "RP2040_RMK_Micropad"
+vendor_id = 0x4c4b
+product_id = 0x4643
+manufacturer = "RMK"
+chip = "rp2040"
+
+[matrix]
+# Input and output pins are mandatory
+input_pins = ["PIN_3", "PIN_4", "PIN_5"]
+output_pins = ["PIN_0", "PIN_1", "PIN_2"]
+# WARNING: Currently row2col/col2row is set in RMK's feature gate, row2col config here is valid ONLY when you're using cloud compilation.
+# Checkout doc here: https://rmk.rs/docs/user_guide/faq.html#my-matrix-is-row2col-the-matrix-doesn-t-work
+# row2col = true
+
+[layout]
+rows = 3
+cols = 3
+layers = 1
+keymap = [
+    [
+        ["Kp7", "Kp8", "Kp9"],
+        ["Kp4", "Kp5", "Kp6"],
+        ["Kp1", "Kp2", "Kp3"],
+    ],
+]
