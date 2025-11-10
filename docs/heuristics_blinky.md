@@ -8,7 +8,7 @@ I hope what I've learned is useful.
 
 At the time of writing the Author is a Junior level Frontend-leaning Product Engineer, and new Rustacean.
 
-The has prior embedded experience in Arduino as a high school student, and programming STM32's with C in a college setting.
+The Author has prior embedded experience in Arduino as a high school student, and programming STM32's with C in a college setting.
 
 ## Heuristics Learned
 

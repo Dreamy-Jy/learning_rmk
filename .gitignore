@@ -9,6 +9,7 @@ target/
 *.uf2
 
 scratch_pad.md
+*.code-workspace
 
 # Ignore obsidian
 .obsidian
